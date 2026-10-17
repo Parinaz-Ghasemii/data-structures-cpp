@@ -136,9 +136,6 @@ The tests also pass under AddressSanitizer and UBSan (no memory errors or leaks)
 - Nearest-neighbor cost is only logarithmic on average; adversarial or high-dimensional data can force a full scan.
 - Tries accept only lowercase `a-z`.
 
-## Background
-
-This started as a data-structures course project. The first versions had real bugs (a wrong pruning step in the k-d tree search, an out-of-bounds heap, a double free in the trie delete), which is why this version is rewritten around randomized tests against brute-force references.
 
 ## References
 
